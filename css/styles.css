@@ -232,8 +232,9 @@ nav h1 a {
 	width: 90%;
 }
 #restaurant-address {
-  font-size: 12pt;
-  margin: 10px 0px;
+  font-size: 2em;
+  margin: 12px 0px;
+  width: 90%;
 }
 #restaurant-cuisine {
   background-color: #333;
@@ -247,6 +248,10 @@ nav h1 a {
   text-transform: uppercase;
 	width: 90%;
 }
+#restaurant-container {
+  margin-top: 130px;
+}
+
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
@@ -282,7 +287,7 @@ nav h1 a {
   list-style-type: none;
   overflow: hidden;
   position: relative;
-  width: 85%;
+  width: 90%;
   margin: 12px 0px;
   border-radius: 8px;
 }
@@ -292,6 +297,7 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+  font-size: 1.5em;
 }
 
 /*======== MEDIA QUERIES =========*/
